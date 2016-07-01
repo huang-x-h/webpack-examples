@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "amd": "webpack --config amd/webpack.config.js",
-    "commonjs": "webpack --config commonjs/webpack.config.js"
+    "commonjs": "webpack --config commonjs/webpack.config.js",
+    "multiple-entries": "webpack --config multiple-entries/webpack.config.js"
   },
   "keywords": ["webpack", "examples"],
   "author": "huang.xinghui <huang.x.hui@gmail.com>",
