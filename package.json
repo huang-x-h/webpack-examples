@@ -6,12 +6,27 @@
   "scripts": {
     "amd": "webpack --config amd/webpack.config.js",
     "commonjs": "webpack --config commonjs/webpack.config.js",
-    "multiple-entries": "webpack --config multiple-entries/webpack.config.js"
+    "multiple-entries": "webpack --config multiple-entries/webpack.config.js",
+    "es6": "webpack --config es6/webpack.config.js"
   },
-  "keywords": ["webpack", "examples"],
+  "keywords": [
+    "webpack",
+    "examples"
+  ],
   "author": "huang.xinghui <huang.x.hui@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "extract-text-webpack-plugin": "^1.0.1",
     "webpack": "^1.13.1"
   }
 }
