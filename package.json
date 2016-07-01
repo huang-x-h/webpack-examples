@@ -1,12 +1,13 @@
 {
   "name": "webpack-examples",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack examples",
   "main": "index.js",
   "scripts": {
-    "amd": "webpack --config amd/webpack.config.js"
+    "amd": "webpack --config amd/webpack.config.js",
+    "commonjs": "webpack --config commonjs/webpack.config.js"
   },
-  "keywords": [],
+  "keywords": ["webpack", "examples"],
   "author": "huang.xinghui <huang.x.hui@gmail.com>",
   "license": "MIT",
   "dependencies": {
