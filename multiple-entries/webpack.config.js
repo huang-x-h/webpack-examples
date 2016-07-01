@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
-  context: __dirname,
+  context: __dirname + '/src',
   entry: {
     'entryOne': './entry1.js',
     'entryTwo': './entry2.js'
