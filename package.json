@@ -7,7 +7,8 @@
     "amd": "webpack --config amd/webpack.config.js",
     "commonjs": "webpack --config commonjs/webpack.config.js",
     "multiple-entries": "webpack --config multiple-entries/webpack.config.js",
-    "es6": "webpack --config es6/webpack.config.js"
+    "es6": "webpack --config es6/webpack.config.js",
+    "css": "webpack --config css/webpack.config.js"
   },
   "keywords": [
     "webpack",
